@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="swordsApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="swordsApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="swordsApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="swordsApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SwordsApp</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- css files -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Cinzel:400,900,700|Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+
+  <main-header></main-header>
+
+  <ng-view></ng-view>
+
+  <main-footer></main-footer>
+
+  <!-- vendor libraries -->
+  <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-route.js"></script>
+  <script src="js/vendor/angular-resource.js"></script>
+  <script src="js/vendor/jquery-1.11.2.js"></script>
+  <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+  <!-- my libraries -->
+  <script src="js/app.js"></script>
+  <!-- controllers -->
+  <!-- directives -->
+  <script src="js/directives/comparison-table.js"></script>
+  <script src="js/directives/main-footer.js"></script>
+  <script src="js/directives/main-header.js"></script>
+  <script src="js/directives/sort-categories.js"></script>
+  <script src="js/directives/sort-items.js"></script>
+  <script src="js/directives/weapon-list.js"></script>
+  <!-- services -->
+  <script src="js/services/comparison.js"></script>
+  <script src="js/services/gravatar.js"></script>
+  <script src="js/services/weapons.js"></script>
+
+</body>
+</html>
