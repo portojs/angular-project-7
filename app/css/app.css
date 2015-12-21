@@ -4,6 +4,7 @@ Global styles
 
 body {
   font-family: 'Sorts Mill Goudy', serif;
+  font-size: 0.9em;
 }
 
 h1,
@@ -12,11 +13,41 @@ h3 {
   font-family: 'Cinzel', serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+
 
 /*******************************************
 Header
 ********************************************/
 
+/*main-header {*/
+  /*width: 100%;*/
+/*}*/
+
+#logo {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#logo h1 {
+  font-size: 3em;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+#logo h2 {
+  position: inherit;
+  margin-top: 0;
+  font-size: 0.8em;
+}
 
 
 
@@ -24,6 +55,45 @@ Header
 Header - nav
 ********************************************/
 
+nav {
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0.1%;
+  width: 74px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333;
+  font-weight: bold;
+  font-size: 2em;
+  display: block;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 100%;
+}
+
+#private-cabinet {
+  color: #fff;
+  background-color: #f4a220;
+}
 
 
 
@@ -31,6 +101,18 @@ Header - nav
 Footer
 ********************************************/
 
+main-footer {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 2px solid #888;
+  font-size: 0.7em;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+}
 
 
 
