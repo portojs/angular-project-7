@@ -1,0 +1,20 @@
+[
+  {
+    "company" : "Swords & Axes",
+    "master" : "Hashimoto Yoji",
+    "cutting" : 7.0,
+    "value" : 1200
+  },
+  {
+    "company" : "Oriental Steel",
+    "master" : "Yao Gun",
+    "cutting" : 6.0,
+    "value" : 1000
+  },
+  {
+    "company": "Meteorite Strike",
+    "master": "Derek Siefer",
+    "cutting": 5.0,
+    "value": 800
+  }
+]

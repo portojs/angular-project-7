@@ -4,7 +4,8 @@ angular.module('swordsApp')
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/main', {
-        templateUrl: 'templates/pages/main/index.html'
+        templateUrl: 'templates/pages/main/index.html',
+        controller: 'MainIndexCtrl'
       })
       .when('/catalogue', {
         templateUrl: 'templates/pages/catalogue/index.html'

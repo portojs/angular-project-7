@@ -28,23 +28,11 @@
       </tr>
     </tfoot>
     <tbody>
-      <tr>
-        <th scope="row">Swords & Axes</th>
-        <td>Hashimoto Yoji</td>
-        <td>7.0</td>
-        <td>1200 v</td>
-      </tr>
-      <tr>
-        <th scope="row">Oriental Steel</th>
-        <td>Yao Gun</td>
-        <td>6.0</td>
-        <td>1000 v</td>
-      </tr>
-      <tr>
-        <th scope="row">Meteorite Strike</th>
-        <td>Derek Siefer</td>
-        <td>5.0</td>
-        <td>800 v</td>
+      <tr ng-repeat="item in list">
+        <th scope="row">{{item.company}}</th>
+        <td>{{item.master}}</td>
+        <td>{{item.cutting}}</td>
+        <td>{{item.value}} v</td>
       </tr>
     </tbody>
   </table>
