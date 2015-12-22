@@ -22,15 +22,19 @@ a {
   margin: 0 auto;
 }
 
+#body {
+  margin: 40px 0;
+}
+
 
 
 /*******************************************
 Header
 ********************************************/
 
-/*main-header {*/
-  /*width: 100%;*/
-/*}*/
+main-header {
+  margin-bottom: 3em;
+}
 
 #logo {
   text-align: center;
@@ -61,7 +65,6 @@ nav {
 
 nav ul {
   padding: 0;
-  text-align: center;
 }
 
 nav ul li {
@@ -88,11 +91,21 @@ nav a {
   margin: 0;
   border: 1px solid #d9d9d9;
   border-radius: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #private-cabinet {
-  color: #fff;
-  background-color: #f4a220;
+  color: #000;
+  background-color: #eee;
+}
+
+nav a:hover {
+  border: 1px solid #000;
+  border-radius: 0;
 }
 
 
@@ -103,7 +116,7 @@ Footer
 
 main-footer {
   text-align: center;
-  padding-top: 40px;
+  margin-top: 40px;
   border-top: 2px solid #888;
   font-size: 0.7em;
 }
@@ -120,6 +133,66 @@ main-footer {
 Page - main
 ********************************************/
 
+#intro {
+  background-color: #fefeee;
+  padding: 10px;
+}
+
+#cta {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em 0 0.5em;
+}
+
+#cta-button {
+  color: #fff;
+  background-color: #f4a220;
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  width: 200px;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#cta-button:hover {
+  color: #000;
+  background-color: #f4b780;
+}
+
+#table-intro {
+  text-align: center;
+  margin-top: 2em;
+}
+
+table {
+  margin: 1em auto;
+}
+
+table th,
+table td {
+  padding: 0.8em;
+  border: 2px solid #fff;
+}
+
+table th {
+  background-color: #ddd;
+}
+
+table td {
+  background-color: #efefef;
+}
+
+table footer {
+  font-style: italic;
+}
 
 
 
