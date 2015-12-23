@@ -20,7 +20,8 @@ angular.module('swordsApp')
         templateUrl: 'templates/pages/private_cabinet/index.html'
       })
       .when('/', {
-        templateUrl: 'templates/pages/main/index.html'
+        templateUrl: 'templates/pages/main/index.html',
+        controller: 'MainIndexCtrl'
       })
       .otherwise({
         redirectTo: '/'
