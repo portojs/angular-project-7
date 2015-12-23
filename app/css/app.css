@@ -99,7 +99,9 @@ nav a {
   transition: all 0.5s;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus,
+nav a.selected {
   color: #fff;
   background-color: #777;
 }
@@ -109,7 +111,9 @@ nav a:hover {
   background-color: #eee;
 }
 
-#private-cabinet:hover {
+#private-cabinet:hover,
+#private-cabinet:focus,
+#private-cabinet.selected {
   border: 1px solid #000;
   border-radius: 0;
 }

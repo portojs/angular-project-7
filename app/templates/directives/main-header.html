@@ -13,11 +13,11 @@
 
   <nav>
     <ul>
-      <li><a href="#/main">M</a></li>
-      <li><a href="#/catalogue">C</a></li>
-      <li><a href="#/sign_up">S</a></li>
-      <li><a href="#/contact">C</a></li>
-      <li><a id="private-cabinet" href="#/private_cabinet">U</a></li>
+      <li><a ng-class="{ selected : checkSelected(1) }" ng-click="makeSelected(1)" href="#/main">M</a></li>
+      <li><a ng-class="{ selected : checkSelected(2) }" ng-click="makeSelected(2)" href="#/catalogue">C</a></li>
+      <li><a ng-class="{ selected : checkSelected(3) }" ng-click="makeSelected(3)" href="#/sign_up">S</a></li>
+      <li><a ng-class="{ selected : checkSelected(4) }" ng-click="makeSelected(4)" href="#/contact">C</a></li>
+      <li><a ng-class="{ selected : checkSelected(5) }" ng-click="makeSelected(5)" id="private-cabinet" href="#/private_cabinet">U</a></li>
     </ul>
   </nav>
 
