@@ -1,1 +1,24 @@
-Table
+<table>
+  <caption>Broadswords comparison table</caption>
+  <thead>
+  <tr>
+    <th scope="col">Smithy</th>
+    <th scope="col">Master</th>
+    <th scope="col">Cutting</th>
+    <th scope="col">Value</th>
+  </tr>
+  </thead>
+  <tfoot>
+  <tr>
+    <td colspan="4">Data is updated every 15 minutes.</td>
+  </tr>
+  </tfoot>
+  <tbody>
+  <tr ng-repeat="item in list">
+    <th scope="row">{{item.company}}</th>
+    <td>{{item.master}}</td>
+    <td>{{item.cutting}}</td>
+    <td>{{item.value}} v</td>
+  </tr>
+  </tbody>
+</table>

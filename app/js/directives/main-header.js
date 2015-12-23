@@ -28,6 +28,7 @@ angular.module('swordsApp')
           }
         };
         scope.currentlySelected = scope.compareSelected();
+        scope.tooltip = 0;
       }
     };
   }]);

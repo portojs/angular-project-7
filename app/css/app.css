@@ -118,6 +118,47 @@ nav a.selected {
   border-radius: 0;
 }
 
+#tooltips {
+  text-align: center;
+}
+
+#tooltips span {
+  color: #fff;
+  background-color: #777;
+  display: none;
+  padding: 3px;
+  border-radius: 5px;
+  position: relative;
+  top: -10px;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+
+#tooltips span:first-child {
+  left: -158px;
+}
+
+#tooltips span:nth-child(2) {
+  left: -79px;
+}
+
+#tooltips span:nth-child(4) {
+  left: 80px;
+}
+
+#tooltips span:nth-child(5) {
+  left: 159px;
+}
+
+#tooltips span.selected {
+  background-color: #222;
+  display: inline-block;
+  top: -5px;
+}
+
 
 
 /*******************************************
