@@ -23,7 +23,7 @@ a {
 }
 
 #body {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 
@@ -92,11 +92,11 @@ nav a {
   margin: 0;
   border: 1px solid #d9d9d9;
   border-radius: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 nav a:hover,
@@ -118,49 +118,22 @@ nav a.selected {
   border-radius: 0;
 }
 
-#tooltips {
-  text-align: center;
-}
-
-#tooltips span {
+.tooltip {
   color: #fff;
   background-color: #fff;
-  padding: 3px;
+  /*padding: 3px;*/
+  margin-top: 5px;
   border-radius: 5px;
-  /*position: relative;*/
-  /*top: -5px;*/
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-#tooltips span:first-child {
-  margin-right: 24px;
-}
-
-#tooltips span:nth-child(2) {
-  margin-right: 15px;
-}
-
-#tooltips span:nth-child(3) {
-  margin-right: 20px;
-}
-
-#tooltips span:nth-child(4) {
-  margin-right: 30px;
-}
-
-#tooltips span:nth-child(5) {
-
-}
-
-#tooltips span.selected {
+.tooltip.selected {
   color: #fff;
   background-color: #777;
-  display: inline-block;
-  /*top: -10px;*/
 }
 
 

@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('swordsApp')
-  .service('WeaponsService', function() {
-
-  });
+  .service('WeaponsService', ['$resource', function($resource) {
+    return $resource('json/weapons.json', {}, {});
+  }]);

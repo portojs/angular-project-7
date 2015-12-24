@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 1,
+    "name" : "Katana",
+    "type" : "Sword",
+    "price": 1000
+  },
+  {
+    "id" : 2,
+    "name" : "War axe",
+    "type" : "Axe",
+    "price": 500
+  },
+  {
+    "id" : 3,
+    "name" : "Pilum",
+    "type" : "Spear",
+    "price": 400
+  }
+]

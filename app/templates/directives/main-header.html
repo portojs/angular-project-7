@@ -13,28 +13,37 @@
 
   <nav>
     <ul>
-      <li><a ng-class="{ selected : checkSelected(1) }" ng-click="makeSelected(1)" ng-mouseenter="tooltip = 1" ng-mouseleave="tooltip = 0" href="#/main">M</a></li>
-      <li><a ng-class="{ selected : checkSelected(2) }" ng-click="makeSelected(2)" ng-mouseenter="tooltip = 2" ng-mouseleave="tooltip = 0" href="#/catalogue">C</a></li>
-      <li><a ng-class="{ selected : checkSelected(3) }" ng-click="makeSelected(3)" ng-mouseenter="tooltip = 3" ng-mouseleave="tooltip = 0" href="#/sign_up">S</a></li>
-      <li><a ng-class="{ selected : checkSelected(4) }" ng-click="makeSelected(4)" ng-mouseenter="tooltip = 4" ng-mouseleave="tooltip = 0" href="#/contact">C</a></li>
-      <li><a ng-class="{ selected : checkSelected(5) }" ng-click="makeSelected(5)" ng-mouseenter="tooltip = 5" ng-mouseleave="tooltip = 0" id="private-cabinet" href="#/private_cabinet">U</a></li>
+      <li>
+        <ul>
+          <li><a ng-class="{ selected : checkSelected(1) }" ng-click="makeSelected(1)" ng-mouseenter="tooltip = 1" ng-mouseleave="tooltip = 0" href="#/main">M</a></li>
+          <li ng-class="{ selected : tooltip === 1 }" class="tooltip">Main</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a ng-class="{ selected : checkSelected(2) }" ng-click="makeSelected(2)" ng-mouseenter="tooltip = 2" ng-mouseleave="tooltip = 0" href="#/catalogue">C</a></li>
+          <li ng-class="{ selected : tooltip === 2 }" class="tooltip">Catalogue</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a ng-class="{ selected : checkSelected(3) }" ng-click="makeSelected(3)" ng-mouseenter="tooltip = 3" ng-mouseleave="tooltip = 0" href="#/sign_up">S</a></li>
+          <li ng-class="{ selected : tooltip === 3 }" class="tooltip">Sign Up</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a ng-class="{ selected : checkSelected(4) }" ng-click="makeSelected(4)" ng-mouseenter="tooltip = 4" ng-mouseleave="tooltip = 0" href="#/contact">C</a></li>
+          <li ng-class="{ selected : tooltip === 4 }" class="tooltip">Contact</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a ng-class="{ selected : checkSelected(5) }" ng-click="makeSelected(5)" ng-mouseenter="tooltip = 5" ng-mouseleave="tooltip = 0" id="private-cabinet" href="#/private_cabinet">U</a></li>
+          <li ng-class="{ selected : tooltip === 5 }" class="tooltip">User</li>
+        </ul>
+      </li>
     </ul>
   </nav>
-
-  <div id="tooltips">
-    <span ng-class="{ selected : tooltip === 1 }" >Main</span>
-    <span ng-class="{ selected : tooltip === 2 }" >Catalogue</span>
-    <span ng-class="{ selected : tooltip === 3 }" >Sign Up</span>
-    <span ng-class="{ selected : tooltip === 4 }" >Contact</span>
-    <span ng-class="{ selected : tooltip === 5 }" >User</span>
-  </div>
-
-  <!--<div id="test">-->
-    <!--<span>M</span>-->
-    <!--<span>C</span>-->
-    <!--<span>S</span>-->
-    <!--<span>C</span>-->
-    <!--<span>U</span>-->
-  <!--</div>-->
 
 </header>
