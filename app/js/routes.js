@@ -8,7 +8,8 @@ angular.module('swordsApp')
         controller: 'MainIndexCtrl'
       })
       .when('/catalogue', {
-        templateUrl: 'templates/pages/catalogue/index.html'
+        templateUrl: 'templates/pages/catalogue/index.html',
+        controller: 'CatalogueIndexCtrl'
       })
       .when('/sign_up', {
         templateUrl: 'templates/pages/sign_up/index.html'

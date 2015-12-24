@@ -1,15 +1,23 @@
 <div>
 
   <label for="search-field">Search:</label>
-  <input id="search-field" type="search">
+  <input ng-model="search" id="search-field" type="search">
 
   <p>Search by type:</p>
   <ul>
-    <li>Sword</li>
-    <li>Axe</li>
-    <li>Spear</li>
+    <li ng-click="selectType('Sword')">Sword</li>
+    <li ng-click="selectType('Axe')">Axe</li>
+    <li ng-click="selectType('Spear')">Spear</li>
   </ul>
 
-  Catalogue
+  <h3>Catalogue</h3>
+
+  <ul>
+    <li ng-repeat="weapon in weapons | filter: {name:search} | filter: {type:currentType}">
+      {{weapon.name}} <br/>
+      {{weapon.type}} <br/>
+      {{weapon.price}}
+    </li>
+  </ul>
 
 </div>
