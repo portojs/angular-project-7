@@ -5,9 +5,9 @@
 
   <p>Search by type:</p>
   <ul>
-    <li ng-click="selectType('Sword')">Sword</li>
-    <li ng-click="selectType('Axe')">Axe</li>
-    <li ng-click="selectType('Spear')">Spear</li>
+    <li ng-repeat="type in weaponTypes" ng-class="{ selected : currentType = type}" ng-click="selectType(type)">
+      {{type}}
+    </li>
   </ul>
 
   <h3>Catalogue</h3>

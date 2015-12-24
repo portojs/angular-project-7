@@ -4,8 +4,9 @@
 'use strict';
 
 angular.module('swordsApp')
-  .controller('CatalogueIndexCtrl', ['$scope', 'WeaponsService', function($scope, WeaponsService) {
+  .controller('CatalogueIndexCtrl', ['$scope', 'WeaponsService', 'WeaponTypesService', function($scope, WeaponsService, WeaponTypesService) {
     $scope.weapons = WeaponsService.query();
+    $scope.weaponTypes = WeaponTypesService.query();
     $scope.currentType = "";
     $scope.selectType = function(type) {
       if ($scope.currentType === type) {
