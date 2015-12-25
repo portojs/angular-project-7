@@ -1,1 +1,3 @@
-Sort Items
+<li ng-repeat="type in weaponTypes" ng-class="{ selected : currentType = type}" ng-click="selectType(type)">
+  {{type}}
+</li>

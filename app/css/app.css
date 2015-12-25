@@ -228,6 +228,10 @@ table footer {
 Page - catalogue
 ********************************************/
 
+#search-field {
+  display: block;
+  width: 100%;
+}
 
 
 

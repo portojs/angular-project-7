@@ -8,11 +8,4 @@ angular.module('swordsApp')
     $scope.weapons = WeaponsService.query();
     $scope.weaponTypes = WeaponTypesService.query();
     $scope.currentType = "";
-    $scope.selectType = function(type) {
-      if ($scope.currentType === type) {
-        $scope.currentType = "";
-      } else {
-        $scope.currentType = type;
-      }
-    };
   }]);

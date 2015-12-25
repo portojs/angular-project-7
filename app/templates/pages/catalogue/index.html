@@ -4,20 +4,9 @@
   <input ng-model="search" id="search-field" type="search">
 
   <p>Search by type:</p>
-  <ul>
-    <li ng-repeat="type in weaponTypes" ng-class="{ selected : currentType = type}" ng-click="selectType(type)">
-      {{type}}
-    </li>
-  </ul>
+  <sort-categories weapon-types="weaponTypes" current-type="currentType"></sort-categories>
 
   <h3>Catalogue</h3>
-
-  <ul>
-    <li ng-repeat="weapon in weapons | filter: {name:search} | filter: {type:currentType}">
-      {{weapon.name}} <br/>
-      {{weapon.type}} <br/>
-      {{weapon.price}}
-    </li>
-  </ul>
+  <weapon-list weapons="weapons" search="search" current-type="currentType"></weapon-list>
 
 </div>

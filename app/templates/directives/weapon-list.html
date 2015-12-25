@@ -1,1 +1,7 @@
-Weapon List
+<ul>
+  <li ng-repeat="weapon in weapons | filter: {name:search} | filter: {type:currentType}">
+    {{weapon.name}} <br/>
+    {{weapon.type}} <br/>
+    {{weapon.price}}
+  </li>
+</ul>
