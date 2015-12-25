@@ -4,8 +4,6 @@
 'use strict';
 
 angular.module('swordsApp')
-  .controller('CatalogueIndexCtrl', ['$scope', 'WeaponsService', 'WeaponTypesService', function($scope, WeaponsService, WeaponTypesService) {
-    $scope.weapons = WeaponsService.query();
-    $scope.weaponTypes = WeaponTypesService.query();
+  .controller('CatalogueIndexCtrl', ['$scope', function($scope) {
     $scope.currentType = "";
   }]);

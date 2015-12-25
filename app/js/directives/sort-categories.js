@@ -6,7 +6,6 @@ angular.module('swordsApp')
       restrict: 'E',
       templateUrl: 'templates/directives/sort-categories.html',
       scope: {
-        weaponTypes: "=",
         currentType: "="
       },
       controller: function($scope) {
