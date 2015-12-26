@@ -11,6 +11,10 @@ angular.module('swordsApp')
         templateUrl: 'templates/pages/catalogue/index.html',
         controller: 'CatalogueIndexCtrl'
       })
+      .when('/catalogue/:weaponId', {
+        templateUrl: 'templates/pages/catalogue/weapon-detail.html',
+        controller: 'CatalogueIndexCtrl'
+      })
       .when('/sign_up', {
         templateUrl: 'templates/pages/sign_up/index.html'
       })

@@ -246,7 +246,8 @@ sort-categories {
   float: right;
 }
 
-sort-categories ul {
+sort-categories ul,
+weapon-list ul {
   list-style: none;
   padding: 0;
 }
@@ -287,8 +288,24 @@ sort-categories li.selected {
 
 h3 {
   clear: both;
+  text-align: center;
 }
 
+weapon-list li {
+  background-color: #efefef;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+weapon-list li span {
+  font-weight: bold;
+}
+
+weapon-list li a:link,
+weapon-list li a:visited {
+  color: #000;
+}
 
 
 /*******************************************
