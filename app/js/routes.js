@@ -13,7 +13,7 @@ angular.module('swordsApp')
       })
       .when('/catalogue/:weaponId', {
         templateUrl: 'templates/pages/catalogue/weapon-detail.html',
-        controller: 'CatalogueIndexCtrl'
+        controller: 'CatalogueDetailController'
       })
       .when('/sign_up', {
         templateUrl: 'templates/pages/sign_up/index.html'

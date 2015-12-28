@@ -4,9 +4,7 @@
 'use strict';
 
 angular.module('swordsApp')
-  .controller('CatalogueIndexCtrl', ['$scope', '$routeParams', 'WeaponsService', function($scope, $routeParams, WeaponsService) {
+  .controller('CatalogueIndexCtrl', ['$scope', '$routeParams', 'WeaponsFactory', function($scope, $routeParams, WeaponsFactory) {
     $scope.currentType = "";
-    $scope.weapon = WeaponsService.get({weaponId: $routeParams.weaponId}, function(weapon) {
-      $scope.name = weapon.name;
-    });
+    $scope.weapons = WeaponsFactory.query();
   }]);
