@@ -312,7 +312,17 @@ weapon-list li a:visited {
 Page - sign up
 ********************************************/
 
+#form-page input {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
 
+#form-page button {
+  margin-top: 0.5em;
+  width: 100%;
+}
 
 
 /*******************************************
@@ -325,3 +335,7 @@ Page - contact
 /*******************************************
 Page - private cabinet
 ********************************************/
+
+#page-cabinet button {
+  width: 100%;
+}

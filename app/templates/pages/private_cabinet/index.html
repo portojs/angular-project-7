@@ -1,5 +1,9 @@
-<div>
+<div id="page-cabinet">
 
-  Private Cabinet
+  <h3>{{ header }}</h3>
+  <img ng-if="user.email" ng-src="{{ gravatarUrl(user.email) }}">
+  <p>{{ user.address }}</p>
+  <p>{{ user.email }}</p>
+  <button ng-click="deleteUser()">Delete current user</button>
 
 </div>

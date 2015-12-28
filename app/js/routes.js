@@ -16,13 +16,15 @@ angular.module('swordsApp')
         controller: 'CatalogueDetailController'
       })
       .when('/sign_up', {
-        templateUrl: 'templates/pages/sign_up/index.html'
+        templateUrl: 'templates/pages/sign_up/index.html',
+        controller: 'SignupIndexCtrl'
       })
       .when('/contact', {
         templateUrl: 'templates/pages/contact/index.html'
       })
       .when('/private_cabinet', {
-        templateUrl: 'templates/pages/private_cabinet/index.html'
+        templateUrl: 'templates/pages/private_cabinet/index.html',
+        controller: 'CabinetIndexCtrl'
       })
       .when('/', {
         templateUrl: 'templates/pages/main/index.html',

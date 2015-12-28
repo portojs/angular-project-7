@@ -1,5 +1,14 @@
-<div>
+<div id="form-page">
 
-  Sign Up
+  <h3>Please enter your details below:</h3>
+  <form ng-submit="signUpForm.$valid && submitForm()" name="signUpForm">
+    <label for="form-name">Full name:</label>
+    <input ng-model="form.name" ng-change="checkForm()" id="form-name" type="text" required>
+    <label for="form-address">Address:</label>
+    <input ng-model="form.address" ng-change="checkForm()" id="form-address" type="text" required>
+    <label for="form-email">Email:</label>
+    <input ng-model="form.email" ng-change="checkForm()" id="form-email" type="email" required>
+    <button type="submit">{{ buttonText }}</button>
+  </form>
 
 </div>
