@@ -2,5 +2,6 @@
 
 angular.module('swordsApp', [
   'ngRoute',
-  'ngResource'
+  'ngResource',
+  'swordsAnimations'
 ]);

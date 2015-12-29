@@ -1,5 +1,5 @@
 <ul>
-  <li ng-repeat="weapon in weapons | filter: {name:search} | filter: {type:currentType}">
+  <li ng-repeat="weapon in weapons | filter: {name:search} | filter: {type:currentType}" class="weapon-listing">
     <a href="#/catalogue/{{ weapon.id }}">
       <span>Name: </span>{{ weapon.name }} <br/>
       <span>Type: </span>{{ weapon.type }} <br/>

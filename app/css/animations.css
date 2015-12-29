@@ -1,0 +1,34 @@
+.weapon-listing.ng-enter,
+.weapon-listing.ng-leave,
+.weapon-listing.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -ms-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.weapon-listing.ng-enter,
+.weapon-listing.ng-move {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.weapon-listing.ng-enter.ng-enter-active,
+.weapon-listing.ng-move.ng-move-active {
+  opacity: 1;
+  height: auto;
+}
+
+.weapon-listing.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.weapon-listing.ng-leave.ng-leave-active {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
