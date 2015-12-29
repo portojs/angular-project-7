@@ -1,24 +1,105 @@
 /*******************************************
+Page - main
+********************************************/
+
+@media screen and (min-width: 450px) {
+
+  #intro {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+/*@media screen and (min-width: 1200px) {*/
+
+  /*#page-main {*/
+    /*width: 40%;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
+
+
+
+/*******************************************
+Page - catalogue
+********************************************/
+
+@media screen and (min-width: 800px) {
+
+  #page-catalogue {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  #page-catalogue {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+
+/*******************************************
+Page - sign up
+********************************************/
+
+@media screen and (min-width: 800px) {
+
+  #form-page {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  #form-page {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+
+
+/*******************************************
 Page - contact
 ********************************************/
 
 @media screen and (min-width: 800px) {
 
+  #page-contact {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  #page-contact {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+
   #primary {
-    width: 45%;
+    width: 20%;
     float: left;
-    margin-left: 5%;
+    margin: 0 2.5%;
   }
 
   #primary img {
-    width: 340px;
-    height: 220px;
+    /*width: 340px;*/
+    /*height: 220px;*/
   }
 
   #secondary {
-    width: 45%;
+    width: 70%;
     float: right;
-    margin-right: 5%;
+    margin: 0 2.5%;
   }
 
   #secondary p:first-child {
