@@ -1,0 +1,27 @@
+/*******************************************
+Page - contact
+********************************************/
+
+@media screen and (min-width: 800px) {
+
+  #primary {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+  }
+
+  #primary img {
+    width: 340px;
+    height: 220px;
+  }
+
+  #secondary {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+  }
+
+  #secondary p:first-child {
+    margin-top: 0;
+  }
+}

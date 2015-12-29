@@ -121,7 +121,6 @@ nav a.selected {
 .tooltip {
   color: #fff;
   background-color: #fff;
-  /*padding: 3px;*/
   margin-top: 5px;
   border-radius: 5px;
   -webkit-transition: all 0.5s;
@@ -141,6 +140,10 @@ nav a.selected {
 /*******************************************
 Footer
 ********************************************/
+
+footer {
+  clear: both;
+}
 
 main-footer {
   text-align: center;
@@ -273,8 +276,7 @@ sort-categories li:last-child {
 }
 
 sort-categories li:hover,
-sort-categories li:focus,
-sort-categories li.selected {
+sort-categories li:focus {
   border: 1px solid #000;
   border-radius: 0;
 }
@@ -308,15 +310,16 @@ weapon-list li a:visited {
 }
 
 
+
 /*******************************************
 Page - sign up
 ********************************************/
 
 #form-page input {
   width: 100%;
-  display: inline-block;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  border: 1px solid #aaa;
 }
 
 #form-page button {
@@ -324,11 +327,69 @@ Page - sign up
   width: 100%;
 }
 
+#form-page button {
+  color: #000;
+  background-color: #eee;
+  padding: 10px;
+  margin: 1em 0 0 0;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#form-page button:hover,
+#form-page button:focus {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+#form-page button:active {
+  color: #eee;
+  background-color: #666;
+}
+
+
 
 /*******************************************
 Page - contact
 ********************************************/
 
+#primary img {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 120px;
+}
+
+#secondary ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#secondary a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 1.5em;
+  margin: 0 0 0.5em;
+}
+
+#secondary .phone a {
+  background-image: url("../img/phone.png");
+}
+
+#secondary .mail a {
+  background-image: url("../img/mail.png");
+}
+
+#secondary .twitter a {
+  background-image: url("../img/twitter.png");
+}
 
 
 

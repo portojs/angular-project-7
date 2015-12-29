@@ -4,6 +4,6 @@
   <img ng-if="user.email" ng-src="{{ gravatarUrl(user.email) }}">
   <p>{{ user.address }}</p>
   <p>{{ user.email }}</p>
-  <button ng-click="deleteUser()">Delete current user</button>
+  <button ng-if="user.email" ng-click="deleteUser()">Delete current user</button>
 
 </div>
