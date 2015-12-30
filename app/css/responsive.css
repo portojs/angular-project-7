@@ -115,7 +115,9 @@ Page - catalogue
     width: 1024px;
     padding-bottom: 1em;
     margin: 0 auto 4em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 50px solid #aaa;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
   }
 
   #logo {
