@@ -23,7 +23,10 @@ a {
 }
 
 #body {
-  margin: 20px 0;
+  max-width: 1024px;
+  margin: 2em auto 0;
+  padding: 0 5%;
+  clear: both;
 }
 
 
@@ -141,14 +144,11 @@ nav a.selected {
 Footer
 ********************************************/
 
-footer {
-  clear: both;
-}
-
 main-footer {
+  display: block;
+  clear: both;
+  padding-top: 5em;
   text-align: center;
-  margin-top: 40px;
-  border-top: 2px solid #888;
   font-size: 0.7em;
 }
 

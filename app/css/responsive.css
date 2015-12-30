@@ -10,13 +10,38 @@ Page - main
   }
 }
 
-/*@media screen and (min-width: 1200px) {*/
+@media screen and (min-width: 1000px) {
 
-  /*#page-main {*/
-    /*width: 40%;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
+  #page-main .primary {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    margin: 0 1% 0 4%;
+  }
+
+  #page-main .primary #intro {
+    width: auto;
+  }
+
+  #page-main .primary #cta {
+    margin-top: 3em;
+  }
+
+  #page-main .secondary {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    margin: 0 4% 0 1%;
+  }
+
+  .secondary #table-intro {
+    margin-top: 0;
+  }
+
+  .secondary table {
+    width: 100%;
+  }
+}
 
 
 
@@ -24,19 +49,29 @@ Page - main
 Page - catalogue
 ********************************************/
 
+/*@media screen and (min-width: 800px) {*/
+
+  /*#page-catalogue {*/
+    /*width: 60%;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
+
+/*@media screen and (min-width: 1200px) {*/
+
+  /*#page-catalogue {*/
+    /*width: 40%;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
+
 @media screen and (min-width: 800px) {
 
-  #page-catalogue {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-
-  #page-catalogue {
-    width: 40%;
-    margin: 0 auto;
+  weapon-list li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin: 0 3%;
   }
 }
 
