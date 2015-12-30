@@ -13,6 +13,10 @@ h3 {
   font-family: 'Cinzel', serif;
 }
 
+h3 {
+  margin-top: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,7 +28,7 @@ a {
 
 #body {
   max-width: 1024px;
-  margin: 2em auto 0;
+  margin: 0 auto 0;
   padding: 0 5%;
   clear: both;
 }
