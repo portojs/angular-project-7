@@ -49,22 +49,6 @@ Page - main
 Page - catalogue
 ********************************************/
 
-/*@media screen and (min-width: 800px) {*/
-
-  /*#page-catalogue {*/
-    /*width: 60%;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
-
-/*@media screen and (min-width: 1200px) {*/
-
-  /*#page-catalogue {*/
-    /*width: 40%;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
-
 @media screen and (min-width: 800px) {
 
   weapon-list li {
@@ -76,22 +60,15 @@ Page - catalogue
 }
 
 
+
 /*******************************************
 Page - sign up
 ********************************************/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 
   #form-page {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-
-  #form-page {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
   }
 }
@@ -102,23 +79,23 @@ Page - sign up
 Page - contact
 ********************************************/
 
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {*/
 
-  #page-contact {
-    width: 50%;
-    margin: 0 auto;
-  }
-}
+  /*#page-contact {*/
+    /*width: 50%;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
 
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {*/
 
-  #page-contact {
-    width: 40%;
-    margin: 0 auto;
-  }
-}
+  /*#page-contact {*/
+    /*width: 40%;*/
+    /*margin: 0 auto;*/
+  /*}*/
+/*}*/
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 880px) {
 
   #primary {
     width: 20%;
