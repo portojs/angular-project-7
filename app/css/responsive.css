@@ -79,22 +79,6 @@ Page - sign up
 Page - contact
 ********************************************/
 
-/*@media screen and (min-width: 800px) {*/
-
-  /*#page-contact {*/
-    /*width: 50%;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
-
-/*@media screen and (min-width: 1200px) {*/
-
-  /*#page-contact {*/
-    /*width: 40%;*/
-    /*margin: 0 auto;*/
-  /*}*/
-/*}*/
-
 @media screen and (min-width: 880px) {
 
   #primary {
@@ -116,5 +100,42 @@ Page - contact
 
   #secondary p:first-child {
     margin-top: 0;
+  }
+}
+
+
+
+/*******************************************
+Page - catalogue
+********************************************/
+
+@media screen and (min-width: 1080px) {
+
+  header {
+    width: 1024px;
+    padding-bottom: 1em;
+    margin: 0 auto 4em;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #logo {
+    display: inline-block;
+    width: 35%;
+    margin-bottom: 0;
+  }
+
+  #logo h1 {
+    margin-top: 0.7em;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    width: 60%;
+  }
+
+  nav li {
+    text-align: center;
   }
 }
