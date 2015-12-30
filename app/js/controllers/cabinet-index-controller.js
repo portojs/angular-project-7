@@ -12,5 +12,4 @@ angular.module('swordsApp')
     $scope.deleteUser = function() {
       $scope.user = {};
     };
-    $scope.header = $scope.user ? $scope.user.name : "There is no user at the moment...";
   }]);
